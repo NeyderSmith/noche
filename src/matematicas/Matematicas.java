@@ -1,32 +1,38 @@
-
+// ejerciccios del power poin
 package matematicas;
-import java.util.Scanner;
 
 public class Matematicas {
-
-   
-    public static void main(String[] args) {
-        
-        Scanner entrada= new Scanner (System .in);
-    float numero1,numero2,suma,resta,div,mult,resto;
     
-        System.out.println("digite dos numeros: ");
-         numero1 = entrada.nextFloat();
-         numero2 = entrada.nextFloat();
+      public static void main(String[] args) {
+        
+
+        
+    long numero1=8;
+    int numero2= 13;
+    long resta = numero1-numero2;
+    
+            System.out.println("el resultado es: "+resta);
+        
+         int numero3=3;
+         int numero4=52;
+         int suma=numero4+numero3;
+           System.out.println("el resultado es: "+suma);
+           
+           
+           double numero5=7.6;
+           int numero6=4;
+           double multiplicacion=numero5*numero6;
+           System.out.println("el resultado es: "+multiplicacion);
+           
+           float numero7=2.3f;
+           int numero8=5;
+           float division= numero7/numero8;
+           System.out.println("el resultado es: "+division);
+               
+                   
          
-        suma=numero1+numero2;
-        resta=numero1-numero2;
-        mult=numero1*numero2;
-        div=numero1/numero2;
-        resto = numero1%numero2;
-        
-        System.out.println("la suma es: "+suma);
-        System.out.println("la resta es: "+resta);
-        System.out.println("la multiplicaciones: "+mult);
-        System.out.println("la division es: "+div);
-        System.out.println("el residuo es: "+resto);
-        
-        System.out.println("neyder smiht tolosa");
+              
+         
        
     }
     
