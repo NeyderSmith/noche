@@ -25,6 +25,8 @@ public class Matematicas {
         System.out.println("la multiplicaciones: "+mult);
         System.out.println("la division es: "+div);
         System.out.println("el residuo es: "+resto);
+        
+        System.out.println("neyder smiht tolosa");
        
     }
     
